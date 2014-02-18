@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+	h1 Create new Search Phrase
+	form(class='form-horizontal', role='form')
+		div(class='form-group')
+			label(for='searchPhrase', class='col-md-2 control-label') Search Phrase
+			div(class='col-md-10')
+				input(type='email', class='form-control', id='searchPhrase')
+		div(class='form-group')
+			div(class='col-md-10 col-md-offset-2')
+				button(type='submit', class='btn btn-default') Save
